@@ -62,41 +62,55 @@ namespace Program
       //  Console.WriteLine( GetMax(70, 60));
       //  Console.WriteLine( GetMin(70, 60));
 
-      // Console.Write("Enter a number: ");
-      // double num1 = Convert.ToDouble(Console.ReadLine());
+      try
+      {
+        Console.Write("Enter a number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
 
-      // Console.Write("Enter an operator: ");
-      // char opr = Convert.ToChar(Console.ReadLine());
+        Console.Write("Enter an operator: ");
+        char opr = Convert.ToChar(Console.ReadLine());
 
 
-      // Console.Write("Enter another number: ");
-      // double num2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter another number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
 
-      // if(opr == '+') {
+        if (opr == '+')
+        {
 
-      //   Console.WriteLine(num1 + num2);
+          Console.WriteLine(num1 + num2);
 
-      // }
-      // else if(opr == '-')
-      // {
-      // Console.WriteLine(num1 - num2);
-      // }
-      // else if(opr == '/')
-      // {
-      // Console.WriteLine(num1 / num2);
+        }
+        else if (opr == '-')
+        {
+          Console.WriteLine(num1 - num2);
+        }
+        else if (opr == '/')
+        {
+          Console.WriteLine(num1 / num2);
 
-      // }
-      // else if(opr == '*')
-      // {
-      //   Console.WriteLine(num1 * num2);
-      // }
-      // else if(opr == '%')
-      // {
-      //   Console.WriteLine(num1 % num2);
-      // }
-      // else {
-      //   throw new Exception("Unknown operator");
-      // }
+        }
+        else if (opr == '*')
+        {
+          Console.WriteLine(num1 * num2);
+        }
+        else if (opr == '%')
+        {
+          Console.WriteLine(num1 % num2);
+        }
+        else
+        {
+          throw new Exception("Unknown operator");
+        }
+
+      }
+      catch(Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        Console.WriteLine("Done");
+      }
 
       // while (i <= 10)
       // {
@@ -112,14 +126,14 @@ namespace Program
       //   i++;
       // } while (i < 10);
 
-      int[,] numberGrid = {
-        { 1, 2, 3, 4},
-        { 5, 6, 7, 8},
-        { 9, 10, 11, 12},
-       { 13, 14, 15, 16}
-      };
+      // int[,] numberGrid = {
+      //   { 1, 2, 3, 4},
+      //   { 5, 6, 7, 8},
+      //   { 9, 10, 11, 12},
+      //  { 13, 14, 15, 16}
+      // };
 
-      Console.WriteLine(numberGrid[0, 3]);
+      // Console.WriteLine(numberGrid[0, 3]);
 
     }
 
