@@ -98,13 +98,20 @@ namespace Program
       //   throw new Exception("Unknown operator");
       // }
 
-      int i = 0;
+      // while (i <= 10)
+      // {
+      //   Console.WriteLine($"Still true at {i}");
+      //   i++;
+      // }
 
-      while (i <= 10)
-      {
-        Console.WriteLine($"Still true at {i}");
-        i++;
-      }
+      // int i = 0;
+
+      // do
+      // {
+      //   Console.WriteLine("From a do...while loop");
+      //   i++;
+      // } while (i < 10);
+      
 
     }
 
