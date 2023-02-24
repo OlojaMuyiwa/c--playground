@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xe9T3c3Lp9QrMHH9rn9dODw9grO2Vz1WooCjrfjVS62NHNRjFJaPbrJNbjvUPlfjlKEQSMqfn2wRO7lKDXHo0A==",
+  "success": true,
+  "projectFilePath": "/home/oloja/Desktop/Development/C#/hello-csharp/hello-csharp.csproj",
+  "expectedPackageFiles": [
+    "/home/oloja/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oloja/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oloja/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

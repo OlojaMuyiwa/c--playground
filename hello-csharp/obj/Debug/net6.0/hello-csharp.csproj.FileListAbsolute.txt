@@ -1,0 +1,15 @@
+/home/oloja/Desktop/Development/C#/hello-csharp/bin/Debug/net6.0/hello-csharp
+/home/oloja/Desktop/Development/C#/hello-csharp/bin/Debug/net6.0/hello-csharp.deps.json
+/home/oloja/Desktop/Development/C#/hello-csharp/bin/Debug/net6.0/hello-csharp.runtimeconfig.json
+/home/oloja/Desktop/Development/C#/hello-csharp/bin/Debug/net6.0/hello-csharp.dll
+/home/oloja/Desktop/Development/C#/hello-csharp/bin/Debug/net6.0/hello-csharp.pdb
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.csproj.AssemblyReference.cache
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.AssemblyInfoInputs.cache
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.AssemblyInfo.cs
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.csproj.CoreCompileInputs.cache
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.dll
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/refint/hello-csharp.dll
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.pdb
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/hello-csharp.genruntimeconfig.cache
+/home/oloja/Desktop/Development/C#/hello-csharp/obj/Debug/net6.0/ref/hello-csharp.dll
