@@ -62,42 +62,49 @@ namespace Program
       //  Console.WriteLine( GetMax(70, 60));
       //  Console.WriteLine( GetMin(70, 60));
 
-      Console.Write("Enter a number: ");
-      double num1 = Convert.ToDouble(Console.ReadLine());
+      // Console.Write("Enter a number: ");
+      // double num1 = Convert.ToDouble(Console.ReadLine());
 
-      Console.Write("Enter an operator: ");
-      char opr = Convert.ToChar(Console.ReadLine());
+      // Console.Write("Enter an operator: ");
+      // char opr = Convert.ToChar(Console.ReadLine());
 
 
-      Console.Write("Enter another number: ");
-      double num2 = Convert.ToDouble(Console.ReadLine());
+      // Console.Write("Enter another number: ");
+      // double num2 = Convert.ToDouble(Console.ReadLine());
 
-      if(opr == '+') {
+      // if(opr == '+') {
 
-        Console.WriteLine(num1 + num2);
+      //   Console.WriteLine(num1 + num2);
 
-      }
-      else if(opr == '-')
+      // }
+      // else if(opr == '-')
+      // {
+      // Console.WriteLine(num1 - num2);
+      // }
+      // else if(opr == '/')
+      // {
+      // Console.WriteLine(num1 / num2);
+
+      // }
+      // else if(opr == '*')
+      // {
+      //   Console.WriteLine(num1 * num2);
+      // }
+      // else if(opr == '%')
+      // {
+      //   Console.WriteLine(num1 % num2);
+      // }
+      // else {
+      //   throw new Exception("Unknown operator");
+      // }
+
+      int i = 0;
+
+      while (i <= 10)
       {
-      Console.WriteLine(num1 - num2);
+        Console.WriteLine($"Still true at {i}");
+        i++;
       }
-      else if(opr == '/')
-      {
-      Console.WriteLine(num1 / num2);
-
-      }
-      else if(opr == '*')
-      {
-        Console.WriteLine(num1 * num2);
-      }
-      else if(opr == '%')
-      {
-        Console.WriteLine(num1 % num2);
-      }
-      else {
-        throw new Exception("Unknown operator");
-      }
-
 
     }
 
